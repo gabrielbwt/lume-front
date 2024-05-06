@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ERP para Scout de Atletas
 
-## Getting Started
+## Sobre o Projeto
 
-First, run the development server:
+Este projeto é um sistema ERP desenvolvido especificamente para o scout de atletas, oferecendo uma solução integrada para o gerenciamento de dados de atletas dentro de clubes esportivos. Com funcionalidades avançadas, nosso sistema permite não apenas o acompanhamento detalhado do desempenho e desenvolvimento de cada atleta, mas também facilita a gestão de contratações e vendas através de um marketplace integrado.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- *Gerenciamento de Atletas*: Mantenha todos os dados dos atletas organizados, acessíveis e atualizados. Monitore desempenho, saúde, evolução técnica e muito mais.
+- *Scouting*: Utilize ferramentas de análise e relatórios para identificar talentos dentro e fora do clube, otimizando o processo de scouting com base em dados precisos e relevantes.
+- *Marketplace*: Navegue em nosso marketplace para descobrir oportunidades de contratação ou para listar seus atletas disponíveis para transferência, tudo integrado ao sistema de gerenciamento.
+- *Dashboard*: Visualize as informações mais importantes para você através de um painel de controle totalmente personalizável.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este ERP é construído utilizando tecnologias modernas e robustas para garantir alta performance e segurança. Algumas das tecnologias incluem:
+- [React.js](https://reactjs.org/) para uma interface de usuário dinâmica e responsiva.
 
-## Learn More
+## Começando
 
-To learn more about Next.js, take a look at the following resources:
+Para começar a usar o ERP para Scout de Atletas, siga as instruções abaixo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone o repositório:
+   bash
+   git clone https://github.com/seu-usuario/seu-projeto.git
+   
+2. Instale as dependências:
+   bash
+   cd seu-projeto
+   npm install
+   
+3. Inicie o servidor:
+   npm run dev
+   
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Agora, acesse http://localhost:3000 para ver a aplicação em funcionamento.
 
-## Deploy on Vercel
+## Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para mais detalhes.
